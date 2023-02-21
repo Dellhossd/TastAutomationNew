@@ -34,3 +34,8 @@ print("Hello" + name)
 Birth_Year =input("Enter your Birth year:")
 age =2020 - int(birth_year)
 print(age)
+
+from selenium import webdriver
+
+browser = webdriver.Firefox()
+browser.get('http://selenium.dev/')
